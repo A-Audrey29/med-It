@@ -1,0 +1,1 @@
+/app/www/wp-content/plugins/query-monitor/wp-content/db.php
