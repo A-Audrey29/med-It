@@ -3325,3 +3325,663 @@
 [05-May-2023 16:08:56 UTC] PHP  11. plugin_basename($file = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/plugin.php:1405
 [05-May-2023 16:08:56 UTC] PHP  12. wp_normalize_path($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:768
 [05-May-2023 16:08:56 UTC] PHP  13. str_replace($search = '\\', $replace = '/', $subject = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:2165
+[05-May-2023 16:27:34 UTC] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php on line 7053
+[05-May-2023 16:27:34 UTC] PHP Stack trace:
+[05-May-2023 16:27:34 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/post.php:0
+[05-May-2023 16:27:34 UTC] PHP   2. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/post.php:12
+[05-May-2023 16:27:34 UTC] PHP   3. require() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:158
+[05-May-2023 16:27:34 UTC] PHP   4. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/menu.php:420
+[05-May-2023 16:27:34 UTC] PHP   5. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/menu.php:155
+[05-May-2023 16:27:34 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:517
+[05-May-2023 16:27:34 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:332
+[05-May-2023 16:27:34 UTC] PHP   8. FS_Client_Migration_Abstract_v2::add_migration_debug('') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:308
+[05-May-2023 16:27:34 UTC] PHP   9. FS_Admin_Menu_Manager::add_subpage($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $function = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/client-migration/class-fs-client-migration-abstract.php:168
+[05-May-2023 16:27:34 UTC] PHP  10. add_submenu_page($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $callback = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render'], $position = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-admin-menu-manager.php:959
+[05-May-2023 16:27:34 UTC] PHP  11. plugin_basename($file = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/plugin.php:1405
+[05-May-2023 16:27:34 UTC] PHP  12. wp_normalize_path($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:768
+[05-May-2023 16:27:34 UTC] PHP  13. wp_is_stream($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:2158
+[05-May-2023 16:27:34 UTC] PHP  14. strpos($haystack = NULL, $needle = '://') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:7053
+[05-May-2023 16:27:34 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php on line 2165
+[05-May-2023 16:27:34 UTC] PHP Stack trace:
+[05-May-2023 16:27:34 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/post.php:0
+[05-May-2023 16:27:34 UTC] PHP   2. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/post.php:12
+[05-May-2023 16:27:34 UTC] PHP   3. require() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:158
+[05-May-2023 16:27:34 UTC] PHP   4. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/menu.php:420
+[05-May-2023 16:27:34 UTC] PHP   5. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/menu.php:155
+[05-May-2023 16:27:34 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:517
+[05-May-2023 16:27:34 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:332
+[05-May-2023 16:27:34 UTC] PHP   8. FS_Client_Migration_Abstract_v2::add_migration_debug('') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:308
+[05-May-2023 16:27:34 UTC] PHP   9. FS_Admin_Menu_Manager::add_subpage($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $function = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/client-migration/class-fs-client-migration-abstract.php:168
+[05-May-2023 16:27:34 UTC] PHP  10. add_submenu_page($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $callback = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render'], $position = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-admin-menu-manager.php:959
+[05-May-2023 16:27:34 UTC] PHP  11. plugin_basename($file = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/plugin.php:1405
+[05-May-2023 16:27:34 UTC] PHP  12. wp_normalize_path($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:768
+[05-May-2023 16:27:34 UTC] PHP  13. str_replace($search = '\\', $replace = '/', $subject = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:2165
+[05-May-2023 16:32:21 UTC] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php on line 7053
+[05-May-2023 16:32:21 UTC] PHP Stack trace:
+[05-May-2023 16:32:21 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/edit.php:0
+[05-May-2023 16:32:21 UTC] PHP   2. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/edit.php:10
+[05-May-2023 16:32:21 UTC] PHP   3. require() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:158
+[05-May-2023 16:32:21 UTC] PHP   4. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/menu.php:420
+[05-May-2023 16:32:21 UTC] PHP   5. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/menu.php:155
+[05-May-2023 16:32:21 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:517
+[05-May-2023 16:32:21 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:332
+[05-May-2023 16:32:21 UTC] PHP   8. FS_Client_Migration_Abstract_v2::add_migration_debug('') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:308
+[05-May-2023 16:32:21 UTC] PHP   9. FS_Admin_Menu_Manager::add_subpage($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $function = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/client-migration/class-fs-client-migration-abstract.php:168
+[05-May-2023 16:32:21 UTC] PHP  10. add_submenu_page($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $callback = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render'], $position = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-admin-menu-manager.php:959
+[05-May-2023 16:32:21 UTC] PHP  11. plugin_basename($file = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/plugin.php:1405
+[05-May-2023 16:32:21 UTC] PHP  12. wp_normalize_path($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:768
+[05-May-2023 16:32:21 UTC] PHP  13. wp_is_stream($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:2158
+[05-May-2023 16:32:21 UTC] PHP  14. strpos($haystack = NULL, $needle = '://') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:7053
+[05-May-2023 16:32:21 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php on line 2165
+[05-May-2023 16:32:21 UTC] PHP Stack trace:
+[05-May-2023 16:32:21 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/edit.php:0
+[05-May-2023 16:32:21 UTC] PHP   2. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/edit.php:10
+[05-May-2023 16:32:21 UTC] PHP   3. require() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:158
+[05-May-2023 16:32:21 UTC] PHP   4. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/menu.php:420
+[05-May-2023 16:32:21 UTC] PHP   5. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/menu.php:155
+[05-May-2023 16:32:21 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:517
+[05-May-2023 16:32:21 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:332
+[05-May-2023 16:32:21 UTC] PHP   8. FS_Client_Migration_Abstract_v2::add_migration_debug('') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:308
+[05-May-2023 16:32:21 UTC] PHP   9. FS_Admin_Menu_Manager::add_subpage($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $function = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/client-migration/class-fs-client-migration-abstract.php:168
+[05-May-2023 16:32:21 UTC] PHP  10. add_submenu_page($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $callback = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render'], $position = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-admin-menu-manager.php:959
+[05-May-2023 16:32:21 UTC] PHP  11. plugin_basename($file = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/plugin.php:1405
+[05-May-2023 16:32:21 UTC] PHP  12. wp_normalize_path($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:768
+[05-May-2023 16:32:21 UTC] PHP  13. str_replace($search = '\\', $replace = '/', $subject = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:2165
+[05-May-2023 16:32:34 UTC] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php on line 7053
+[05-May-2023 16:32:34 UTC] PHP Stack trace:
+[05-May-2023 16:32:34 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/edit.php:0
+[05-May-2023 16:32:34 UTC] PHP   2. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/edit.php:10
+[05-May-2023 16:32:34 UTC] PHP   3. require() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:158
+[05-May-2023 16:32:34 UTC] PHP   4. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/menu.php:420
+[05-May-2023 16:32:34 UTC] PHP   5. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/menu.php:155
+[05-May-2023 16:32:34 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:517
+[05-May-2023 16:32:34 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:332
+[05-May-2023 16:32:34 UTC] PHP   8. FS_Client_Migration_Abstract_v2::add_migration_debug('') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:308
+[05-May-2023 16:32:34 UTC] PHP   9. FS_Admin_Menu_Manager::add_subpage($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $function = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/client-migration/class-fs-client-migration-abstract.php:168
+[05-May-2023 16:32:34 UTC] PHP  10. add_submenu_page($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $callback = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render'], $position = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-admin-menu-manager.php:959
+[05-May-2023 16:32:34 UTC] PHP  11. plugin_basename($file = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/plugin.php:1405
+[05-May-2023 16:32:34 UTC] PHP  12. wp_normalize_path($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:768
+[05-May-2023 16:32:34 UTC] PHP  13. wp_is_stream($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:2158
+[05-May-2023 16:32:34 UTC] PHP  14. strpos($haystack = NULL, $needle = '://') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:7053
+[05-May-2023 16:32:34 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php on line 2165
+[05-May-2023 16:32:34 UTC] PHP Stack trace:
+[05-May-2023 16:32:34 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/edit.php:0
+[05-May-2023 16:32:34 UTC] PHP   2. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/edit.php:10
+[05-May-2023 16:32:34 UTC] PHP   3. require() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:158
+[05-May-2023 16:32:34 UTC] PHP   4. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/menu.php:420
+[05-May-2023 16:32:34 UTC] PHP   5. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/menu.php:155
+[05-May-2023 16:32:34 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:517
+[05-May-2023 16:32:34 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:332
+[05-May-2023 16:32:34 UTC] PHP   8. FS_Client_Migration_Abstract_v2::add_migration_debug('') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:308
+[05-May-2023 16:32:34 UTC] PHP   9. FS_Admin_Menu_Manager::add_subpage($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $function = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/client-migration/class-fs-client-migration-abstract.php:168
+[05-May-2023 16:32:34 UTC] PHP  10. add_submenu_page($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $callback = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render'], $position = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-admin-menu-manager.php:959
+[05-May-2023 16:32:34 UTC] PHP  11. plugin_basename($file = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/plugin.php:1405
+[05-May-2023 16:32:34 UTC] PHP  12. wp_normalize_path($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:768
+[05-May-2023 16:32:34 UTC] PHP  13. str_replace($search = '\\', $replace = '/', $subject = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:2165
+[05-May-2023 16:32:42 UTC] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php on line 7053
+[05-May-2023 16:32:42 UTC] PHP Stack trace:
+[05-May-2023 16:32:42 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/edit.php:0
+[05-May-2023 16:32:42 UTC] PHP   2. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/edit.php:10
+[05-May-2023 16:32:42 UTC] PHP   3. require() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:158
+[05-May-2023 16:32:42 UTC] PHP   4. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/menu.php:420
+[05-May-2023 16:32:42 UTC] PHP   5. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/menu.php:155
+[05-May-2023 16:32:42 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:517
+[05-May-2023 16:32:42 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:332
+[05-May-2023 16:32:42 UTC] PHP   8. FS_Client_Migration_Abstract_v2::add_migration_debug('') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:308
+[05-May-2023 16:32:42 UTC] PHP   9. FS_Admin_Menu_Manager::add_subpage($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $function = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/client-migration/class-fs-client-migration-abstract.php:168
+[05-May-2023 16:32:42 UTC] PHP  10. add_submenu_page($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $callback = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render'], $position = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-admin-menu-manager.php:959
+[05-May-2023 16:32:42 UTC] PHP  11. plugin_basename($file = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/plugin.php:1405
+[05-May-2023 16:32:42 UTC] PHP  12. wp_normalize_path($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:768
+[05-May-2023 16:32:42 UTC] PHP  13. wp_is_stream($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:2158
+[05-May-2023 16:32:42 UTC] PHP  14. strpos($haystack = NULL, $needle = '://') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:7053
+[05-May-2023 16:32:42 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php on line 2165
+[05-May-2023 16:32:42 UTC] PHP Stack trace:
+[05-May-2023 16:32:42 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/edit.php:0
+[05-May-2023 16:32:42 UTC] PHP   2. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/edit.php:10
+[05-May-2023 16:32:42 UTC] PHP   3. require() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:158
+[05-May-2023 16:32:42 UTC] PHP   4. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/menu.php:420
+[05-May-2023 16:32:42 UTC] PHP   5. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/menu.php:155
+[05-May-2023 16:32:42 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:517
+[05-May-2023 16:32:42 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:332
+[05-May-2023 16:32:42 UTC] PHP   8. FS_Client_Migration_Abstract_v2::add_migration_debug('') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:308
+[05-May-2023 16:32:42 UTC] PHP   9. FS_Admin_Menu_Manager::add_subpage($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $function = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/client-migration/class-fs-client-migration-abstract.php:168
+[05-May-2023 16:32:42 UTC] PHP  10. add_submenu_page($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $callback = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render'], $position = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-admin-menu-manager.php:959
+[05-May-2023 16:32:42 UTC] PHP  11. plugin_basename($file = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/plugin.php:1405
+[05-May-2023 16:32:42 UTC] PHP  12. wp_normalize_path($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:768
+[05-May-2023 16:32:42 UTC] PHP  13. str_replace($search = '\\', $replace = '/', $subject = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:2165
+[05-May-2023 16:32:49 UTC] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php on line 7053
+[05-May-2023 16:32:49 UTC] PHP Stack trace:
+[05-May-2023 16:32:49 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/upload.php:0
+[05-May-2023 16:32:49 UTC] PHP   2. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/upload.php:10
+[05-May-2023 16:32:49 UTC] PHP   3. require() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:158
+[05-May-2023 16:32:49 UTC] PHP   4. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/menu.php:420
+[05-May-2023 16:32:49 UTC] PHP   5. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/menu.php:155
+[05-May-2023 16:32:49 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:517
+[05-May-2023 16:32:49 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:332
+[05-May-2023 16:32:49 UTC] PHP   8. FS_Client_Migration_Abstract_v2::add_migration_debug('') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:308
+[05-May-2023 16:32:49 UTC] PHP   9. FS_Admin_Menu_Manager::add_subpage($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $function = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/client-migration/class-fs-client-migration-abstract.php:168
+[05-May-2023 16:32:49 UTC] PHP  10. add_submenu_page($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $callback = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render'], $position = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-admin-menu-manager.php:959
+[05-May-2023 16:32:49 UTC] PHP  11. plugin_basename($file = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/plugin.php:1405
+[05-May-2023 16:32:49 UTC] PHP  12. wp_normalize_path($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:768
+[05-May-2023 16:32:49 UTC] PHP  13. wp_is_stream($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:2158
+[05-May-2023 16:32:49 UTC] PHP  14. strpos($haystack = NULL, $needle = '://') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:7053
+[05-May-2023 16:32:49 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php on line 2165
+[05-May-2023 16:32:49 UTC] PHP Stack trace:
+[05-May-2023 16:32:49 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/upload.php:0
+[05-May-2023 16:32:49 UTC] PHP   2. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/upload.php:10
+[05-May-2023 16:32:49 UTC] PHP   3. require() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:158
+[05-May-2023 16:32:49 UTC] PHP   4. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/menu.php:420
+[05-May-2023 16:32:49 UTC] PHP   5. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/menu.php:155
+[05-May-2023 16:32:49 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:517
+[05-May-2023 16:32:49 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:332
+[05-May-2023 16:32:49 UTC] PHP   8. FS_Client_Migration_Abstract_v2::add_migration_debug('') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:308
+[05-May-2023 16:32:49 UTC] PHP   9. FS_Admin_Menu_Manager::add_subpage($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $function = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/client-migration/class-fs-client-migration-abstract.php:168
+[05-May-2023 16:32:49 UTC] PHP  10. add_submenu_page($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $callback = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render'], $position = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-admin-menu-manager.php:959
+[05-May-2023 16:32:49 UTC] PHP  11. plugin_basename($file = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/plugin.php:1405
+[05-May-2023 16:32:49 UTC] PHP  12. wp_normalize_path($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:768
+[05-May-2023 16:32:49 UTC] PHP  13. str_replace($search = '\\', $replace = '/', $subject = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:2165
+[05-May-2023 16:32:56 UTC] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php on line 7053
+[05-May-2023 16:32:56 UTC] PHP Stack trace:
+[05-May-2023 16:32:56 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:0
+[05-May-2023 16:32:56 UTC] PHP   2. require() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:158
+[05-May-2023 16:32:56 UTC] PHP   3. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/menu.php:420
+[05-May-2023 16:32:56 UTC] PHP   4. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/menu.php:155
+[05-May-2023 16:32:56 UTC] PHP   5. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:517
+[05-May-2023 16:32:56 UTC] PHP   6. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:332
+[05-May-2023 16:32:56 UTC] PHP   7. FS_Client_Migration_Abstract_v2::add_migration_debug('') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:308
+[05-May-2023 16:32:56 UTC] PHP   8. FS_Admin_Menu_Manager::add_subpage($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $function = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/client-migration/class-fs-client-migration-abstract.php:168
+[05-May-2023 16:32:56 UTC] PHP   9. add_submenu_page($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $callback = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render'], $position = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-admin-menu-manager.php:959
+[05-May-2023 16:32:56 UTC] PHP  10. plugin_basename($file = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/plugin.php:1405
+[05-May-2023 16:32:56 UTC] PHP  11. wp_normalize_path($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:768
+[05-May-2023 16:32:56 UTC] PHP  12. wp_is_stream($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:2158
+[05-May-2023 16:32:56 UTC] PHP  13. strpos($haystack = NULL, $needle = '://') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:7053
+[05-May-2023 16:32:56 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php on line 2165
+[05-May-2023 16:32:56 UTC] PHP Stack trace:
+[05-May-2023 16:32:56 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:0
+[05-May-2023 16:32:56 UTC] PHP   2. require() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:158
+[05-May-2023 16:32:56 UTC] PHP   3. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/menu.php:420
+[05-May-2023 16:32:56 UTC] PHP   4. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/menu.php:155
+[05-May-2023 16:32:56 UTC] PHP   5. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:517
+[05-May-2023 16:32:56 UTC] PHP   6. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:332
+[05-May-2023 16:32:56 UTC] PHP   7. FS_Client_Migration_Abstract_v2::add_migration_debug('') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:308
+[05-May-2023 16:32:56 UTC] PHP   8. FS_Admin_Menu_Manager::add_subpage($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $function = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/client-migration/class-fs-client-migration-abstract.php:168
+[05-May-2023 16:32:56 UTC] PHP   9. add_submenu_page($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $callback = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render'], $position = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-admin-menu-manager.php:959
+[05-May-2023 16:32:56 UTC] PHP  10. plugin_basename($file = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/plugin.php:1405
+[05-May-2023 16:32:56 UTC] PHP  11. wp_normalize_path($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:768
+[05-May-2023 16:32:56 UTC] PHP  12. str_replace($search = '\\', $replace = '/', $subject = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:2165
+[05-May-2023 16:32:56 UTC] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php on line 7053
+[05-May-2023 16:32:56 UTC] PHP Stack trace:
+[05-May-2023 16:32:56 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/edit.php:0
+[05-May-2023 16:32:56 UTC] PHP   2. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/edit.php:10
+[05-May-2023 16:32:56 UTC] PHP   3. require() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:158
+[05-May-2023 16:32:56 UTC] PHP   4. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/menu.php:420
+[05-May-2023 16:32:56 UTC] PHP   5. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/menu.php:155
+[05-May-2023 16:32:56 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:517
+[05-May-2023 16:32:56 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:332
+[05-May-2023 16:32:56 UTC] PHP   8. FS_Client_Migration_Abstract_v2::add_migration_debug('') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:308
+[05-May-2023 16:32:56 UTC] PHP   9. FS_Admin_Menu_Manager::add_subpage($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $function = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/client-migration/class-fs-client-migration-abstract.php:168
+[05-May-2023 16:32:56 UTC] PHP  10. add_submenu_page($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $callback = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render'], $position = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-admin-menu-manager.php:959
+[05-May-2023 16:32:56 UTC] PHP  11. plugin_basename($file = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/plugin.php:1405
+[05-May-2023 16:32:56 UTC] PHP  12. wp_normalize_path($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:768
+[05-May-2023 16:32:56 UTC] PHP  13. wp_is_stream($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:2158
+[05-May-2023 16:32:56 UTC] PHP  14. strpos($haystack = NULL, $needle = '://') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:7053
+[05-May-2023 16:32:56 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php on line 2165
+[05-May-2023 16:32:56 UTC] PHP Stack trace:
+[05-May-2023 16:32:56 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/edit.php:0
+[05-May-2023 16:32:56 UTC] PHP   2. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/edit.php:10
+[05-May-2023 16:32:56 UTC] PHP   3. require() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:158
+[05-May-2023 16:32:56 UTC] PHP   4. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/menu.php:420
+[05-May-2023 16:32:56 UTC] PHP   5. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/menu.php:155
+[05-May-2023 16:32:56 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:517
+[05-May-2023 16:32:56 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:332
+[05-May-2023 16:32:56 UTC] PHP   8. FS_Client_Migration_Abstract_v2::add_migration_debug('') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:308
+[05-May-2023 16:32:56 UTC] PHP   9. FS_Admin_Menu_Manager::add_subpage($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $function = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/client-migration/class-fs-client-migration-abstract.php:168
+[05-May-2023 16:32:56 UTC] PHP  10. add_submenu_page($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $callback = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render'], $position = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-admin-menu-manager.php:959
+[05-May-2023 16:32:56 UTC] PHP  11. plugin_basename($file = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/plugin.php:1405
+[05-May-2023 16:32:56 UTC] PHP  12. wp_normalize_path($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:768
+[05-May-2023 16:32:56 UTC] PHP  13. str_replace($search = '\\', $replace = '/', $subject = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:2165
+[05-May-2023 16:33:00 UTC] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php on line 7053
+[05-May-2023 16:33:00 UTC] PHP Stack trace:
+[05-May-2023 16:33:00 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:0
+[05-May-2023 16:33:00 UTC] PHP   2. require() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:158
+[05-May-2023 16:33:00 UTC] PHP   3. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/menu.php:420
+[05-May-2023 16:33:00 UTC] PHP   4. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/menu.php:155
+[05-May-2023 16:33:00 UTC] PHP   5. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:517
+[05-May-2023 16:33:00 UTC] PHP   6. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:332
+[05-May-2023 16:33:00 UTC] PHP   7. FS_Client_Migration_Abstract_v2::add_migration_debug('') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:308
+[05-May-2023 16:33:00 UTC] PHP   8. FS_Admin_Menu_Manager::add_subpage($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $function = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/client-migration/class-fs-client-migration-abstract.php:168
+[05-May-2023 16:33:00 UTC] PHP   9. add_submenu_page($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $callback = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render'], $position = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-admin-menu-manager.php:959
+[05-May-2023 16:33:00 UTC] PHP  10. plugin_basename($file = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/plugin.php:1405
+[05-May-2023 16:33:00 UTC] PHP  11. wp_normalize_path($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:768
+[05-May-2023 16:33:00 UTC] PHP  12. wp_is_stream($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:2158
+[05-May-2023 16:33:00 UTC] PHP  13. strpos($haystack = NULL, $needle = '://') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:7053
+[05-May-2023 16:33:00 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php on line 2165
+[05-May-2023 16:33:00 UTC] PHP Stack trace:
+[05-May-2023 16:33:00 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:0
+[05-May-2023 16:33:00 UTC] PHP   2. require() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:158
+[05-May-2023 16:33:00 UTC] PHP   3. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/menu.php:420
+[05-May-2023 16:33:00 UTC] PHP   4. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/menu.php:155
+[05-May-2023 16:33:00 UTC] PHP   5. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:517
+[05-May-2023 16:33:00 UTC] PHP   6. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:332
+[05-May-2023 16:33:00 UTC] PHP   7. FS_Client_Migration_Abstract_v2::add_migration_debug('') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:308
+[05-May-2023 16:33:00 UTC] PHP   8. FS_Admin_Menu_Manager::add_subpage($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $function = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/client-migration/class-fs-client-migration-abstract.php:168
+[05-May-2023 16:33:00 UTC] PHP   9. add_submenu_page($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $callback = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render'], $position = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-admin-menu-manager.php:959
+[05-May-2023 16:33:00 UTC] PHP  10. plugin_basename($file = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/plugin.php:1405
+[05-May-2023 16:33:00 UTC] PHP  11. wp_normalize_path($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:768
+[05-May-2023 16:33:00 UTC] PHP  12. str_replace($search = '\\', $replace = '/', $subject = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:2165
+[05-May-2023 16:33:08 UTC] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php on line 7053
+[05-May-2023 16:33:08 UTC] PHP Stack trace:
+[05-May-2023 16:33:08 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/customize.php:0
+[05-May-2023 16:33:08 UTC] PHP   2. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/customize.php:13
+[05-May-2023 16:33:08 UTC] PHP   3. require() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:158
+[05-May-2023 16:33:08 UTC] PHP   4. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/menu.php:420
+[05-May-2023 16:33:08 UTC] PHP   5. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/menu.php:155
+[05-May-2023 16:33:08 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:517
+[05-May-2023 16:33:08 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:332
+[05-May-2023 16:33:08 UTC] PHP   8. FS_Client_Migration_Abstract_v2::add_migration_debug('') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:308
+[05-May-2023 16:33:08 UTC] PHP   9. FS_Admin_Menu_Manager::add_subpage($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $function = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/client-migration/class-fs-client-migration-abstract.php:168
+[05-May-2023 16:33:08 UTC] PHP  10. add_submenu_page($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $callback = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render'], $position = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-admin-menu-manager.php:959
+[05-May-2023 16:33:08 UTC] PHP  11. plugin_basename($file = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/plugin.php:1405
+[05-May-2023 16:33:08 UTC] PHP  12. wp_normalize_path($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:768
+[05-May-2023 16:33:08 UTC] PHP  13. wp_is_stream($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:2158
+[05-May-2023 16:33:08 UTC] PHP  14. strpos($haystack = NULL, $needle = '://') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:7053
+[05-May-2023 16:33:08 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php on line 2165
+[05-May-2023 16:33:08 UTC] PHP Stack trace:
+[05-May-2023 16:33:08 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/customize.php:0
+[05-May-2023 16:33:08 UTC] PHP   2. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/customize.php:13
+[05-May-2023 16:33:08 UTC] PHP   3. require() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:158
+[05-May-2023 16:33:08 UTC] PHP   4. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/menu.php:420
+[05-May-2023 16:33:08 UTC] PHP   5. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/menu.php:155
+[05-May-2023 16:33:08 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:517
+[05-May-2023 16:33:08 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:332
+[05-May-2023 16:33:08 UTC] PHP   8. FS_Client_Migration_Abstract_v2::add_migration_debug('') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:308
+[05-May-2023 16:33:08 UTC] PHP   9. FS_Admin_Menu_Manager::add_subpage($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $function = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/client-migration/class-fs-client-migration-abstract.php:168
+[05-May-2023 16:33:08 UTC] PHP  10. add_submenu_page($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $callback = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render'], $position = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-admin-menu-manager.php:959
+[05-May-2023 16:33:08 UTC] PHP  11. plugin_basename($file = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/plugin.php:1405
+[05-May-2023 16:33:08 UTC] PHP  12. wp_normalize_path($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:768
+[05-May-2023 16:33:08 UTC] PHP  13. str_replace($search = '\\', $replace = '/', $subject = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:2165
+[05-May-2023 16:33:14 UTC] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/theme.php on line 1894
+[05-May-2023 16:33:14 UTC] PHP Stack trace:
+[05-May-2023 16:33:14 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/medit/app/public/index.php:0
+[05-May-2023 16:33:14 UTC] PHP   2. require() /Users/audrey/Desktop/Local Sites/medit/app/public/index.php:17
+[05-May-2023 16:33:14 UTC] PHP   3. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-blog-header.php:19
+[05-May-2023 16:33:14 UTC] PHP   4. include() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/template-loader.php:106
+[05-May-2023 16:33:14 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/themes/oceanwp/page.php:12
+[05-May-2023 16:33:14 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $load_once = TRUE, $args = []) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/general-template.php:48
+[05-May-2023 16:33:14 UTC] PHP   7. load_template($_template_file = '/Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/themes/oceanwp-child-theme-master/header.php', $load_once = TRUE, $args = []) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/template.php:718
+[05-May-2023 16:33:14 UTC] PHP   8. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/template.php:783
+[05-May-2023 16:33:14 UTC] PHP   9. wp_head() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/themes/oceanwp-child-theme-master/header.php:18
+[05-May-2023 16:33:14 UTC] PHP  10. do_action($hook_name = 'wp_head') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/general-template.php:3049
+[05-May-2023 16:33:14 UTC] PHP  11. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:517
+[05-May-2023 16:33:14 UTC] PHP  12. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:332
+[05-May-2023 16:33:14 UTC] PHP  13. wp_custom_css_cb('') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:308
+[05-May-2023 16:33:14 UTC] PHP  14. strip_tags($string = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/theme.php:1894
+[05-May-2023 16:33:14 UTC] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/shortcodes.php on line 208
+[05-May-2023 16:33:14 UTC] PHP Stack trace:
+[05-May-2023 16:33:14 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/medit/app/public/index.php:0
+[05-May-2023 16:33:14 UTC] PHP   2. require() /Users/audrey/Desktop/Local Sites/medit/app/public/index.php:17
+[05-May-2023 16:33:14 UTC] PHP   3. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-blog-header.php:19
+[05-May-2023 16:33:14 UTC] PHP   4. include() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/template-loader.php:106
+[05-May-2023 16:33:14 UTC] PHP   5. get_header($name = *uninitialized*, $args = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/themes/oceanwp/page.php:12
+[05-May-2023 16:33:14 UTC] PHP   6. locate_template($template_names = [0 => 'header.php'], $load = TRUE, $load_once = TRUE, $args = []) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/general-template.php:48
+[05-May-2023 16:33:14 UTC] PHP   7. load_template($_template_file = '/Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/themes/oceanwp-child-theme-master/header.php', $load_once = TRUE, $args = []) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/template.php:718
+[05-May-2023 16:33:14 UTC] PHP   8. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/template.php:783
+[05-May-2023 16:33:14 UTC] PHP   9. do_action($hook_name = 'ocean_header') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/themes/oceanwp-child-theme-master/header.php:37
+[05-May-2023 16:33:14 UTC] PHP  10. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:517
+[05-May-2023 16:33:14 UTC] PHP  11. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:332
+[05-May-2023 16:33:14 UTC] PHP  12. oceanwp_header_template('') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:308
+[05-May-2023 16:33:14 UTC] PHP  13. get_template_part($slug = 'partials/header/layout', $name = *uninitialized*, $args = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/themes/oceanwp/inc/helpers.php:1059
+[05-May-2023 16:33:14 UTC] PHP  14. locate_template($template_names = [0 => 'partials/header/layout.php'], $load = TRUE, $load_once = FALSE, $args = []) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/general-template.php:204
+[05-May-2023 16:33:14 UTC] PHP  15. load_template($_template_file = '/Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/themes/oceanwp/partials/header/layout.php', $load_once = FALSE, $args = []) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/template.php:718
+[05-May-2023 16:33:14 UTC] PHP  16. require() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/template.php:785
+[05-May-2023 16:33:14 UTC] PHP  17. do_action($hook_name = 'ocean_header_inner_middle_content') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/themes/oceanwp/partials/header/layout.php:100
+[05-May-2023 16:33:14 UTC] PHP  18. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:517
+[05-May-2023 16:33:14 UTC] PHP  19. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:332
+[05-May-2023 16:33:14 UTC] PHP  20. oceanwp_header_navigation('') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:308
+[05-May-2023 16:33:14 UTC] PHP  21. get_template_part($slug = 'partials/header/nav', $name = *uninitialized*, $args = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/themes/oceanwp/inc/header-content.php:127
+[05-May-2023 16:33:14 UTC] PHP  22. locate_template($template_names = [0 => 'partials/header/nav.php'], $load = TRUE, $load_once = FALSE, $args = []) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/general-template.php:204
+[05-May-2023 16:33:14 UTC] PHP  23. load_template($_template_file = '/Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/themes/oceanwp/partials/header/nav.php', $load_once = FALSE, $args = []) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/template.php:718
+[05-May-2023 16:33:14 UTC] PHP  24. require() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/template.php:785
+[05-May-2023 16:33:14 UTC] PHP  25. do_action($hook_name = 'ocean_before_nav') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/themes/oceanwp/partials/header/nav.php:138
+[05-May-2023 16:33:14 UTC] PHP  26. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:517
+[05-May-2023 16:33:14 UTC] PHP  27. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:332
+[05-May-2023 16:33:14 UTC] PHP  28. oceanwp_display_after_header_content('') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:308
+[05-May-2023 16:33:14 UTC] PHP  29. do_shortcode($content = NULL, $ignore_html = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/themes/oceanwp/inc/helpers.php:1567
+[05-May-2023 16:33:14 UTC] PHP  30. strpos($haystack = NULL, $needle = '[') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/shortcodes.php:208
+[05-May-2023 16:33:43 UTC] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php on line 7053
+[05-May-2023 16:33:43 UTC] PHP Stack trace:
+[05-May-2023 16:33:43 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/edit.php:0
+[05-May-2023 16:33:43 UTC] PHP   2. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/edit.php:10
+[05-May-2023 16:33:43 UTC] PHP   3. require() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:158
+[05-May-2023 16:33:43 UTC] PHP   4. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/menu.php:420
+[05-May-2023 16:33:43 UTC] PHP   5. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/menu.php:155
+[05-May-2023 16:33:43 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:517
+[05-May-2023 16:33:43 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:332
+[05-May-2023 16:33:43 UTC] PHP   8. FS_Client_Migration_Abstract_v2::add_migration_debug('') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:308
+[05-May-2023 16:33:43 UTC] PHP   9. FS_Admin_Menu_Manager::add_subpage($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $function = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/client-migration/class-fs-client-migration-abstract.php:168
+[05-May-2023 16:33:43 UTC] PHP  10. add_submenu_page($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $callback = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render'], $position = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-admin-menu-manager.php:959
+[05-May-2023 16:33:43 UTC] PHP  11. plugin_basename($file = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/plugin.php:1405
+[05-May-2023 16:33:43 UTC] PHP  12. wp_normalize_path($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:768
+[05-May-2023 16:33:43 UTC] PHP  13. wp_is_stream($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:2158
+[05-May-2023 16:33:43 UTC] PHP  14. strpos($haystack = NULL, $needle = '://') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:7053
+[05-May-2023 16:33:43 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php on line 2165
+[05-May-2023 16:33:43 UTC] PHP Stack trace:
+[05-May-2023 16:33:43 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/edit.php:0
+[05-May-2023 16:33:43 UTC] PHP   2. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/edit.php:10
+[05-May-2023 16:33:43 UTC] PHP   3. require() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:158
+[05-May-2023 16:33:43 UTC] PHP   4. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/menu.php:420
+[05-May-2023 16:33:43 UTC] PHP   5. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/menu.php:155
+[05-May-2023 16:33:43 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:517
+[05-May-2023 16:33:43 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:332
+[05-May-2023 16:33:43 UTC] PHP   8. FS_Client_Migration_Abstract_v2::add_migration_debug('') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:308
+[05-May-2023 16:33:43 UTC] PHP   9. FS_Admin_Menu_Manager::add_subpage($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $function = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/client-migration/class-fs-client-migration-abstract.php:168
+[05-May-2023 16:33:43 UTC] PHP  10. add_submenu_page($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $callback = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render'], $position = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-admin-menu-manager.php:959
+[05-May-2023 16:33:43 UTC] PHP  11. plugin_basename($file = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/plugin.php:1405
+[05-May-2023 16:33:43 UTC] PHP  12. wp_normalize_path($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:768
+[05-May-2023 16:33:43 UTC] PHP  13. str_replace($search = '\\', $replace = '/', $subject = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:2165
+[05-May-2023 16:33:48 UTC] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php on line 7053
+[05-May-2023 16:33:48 UTC] PHP Stack trace:
+[05-May-2023 16:33:48 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:0
+[05-May-2023 16:33:48 UTC] PHP   2. require() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:158
+[05-May-2023 16:33:48 UTC] PHP   3. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/menu.php:420
+[05-May-2023 16:33:48 UTC] PHP   4. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/menu.php:155
+[05-May-2023 16:33:48 UTC] PHP   5. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:517
+[05-May-2023 16:33:48 UTC] PHP   6. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:332
+[05-May-2023 16:33:48 UTC] PHP   7. FS_Client_Migration_Abstract_v2::add_migration_debug('') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:308
+[05-May-2023 16:33:48 UTC] PHP   8. FS_Admin_Menu_Manager::add_subpage($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $function = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/client-migration/class-fs-client-migration-abstract.php:168
+[05-May-2023 16:33:48 UTC] PHP   9. add_submenu_page($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $callback = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render'], $position = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-admin-menu-manager.php:959
+[05-May-2023 16:33:48 UTC] PHP  10. plugin_basename($file = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/plugin.php:1405
+[05-May-2023 16:33:48 UTC] PHP  11. wp_normalize_path($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:768
+[05-May-2023 16:33:48 UTC] PHP  12. wp_is_stream($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:2158
+[05-May-2023 16:33:48 UTC] PHP  13. strpos($haystack = NULL, $needle = '://') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:7053
+[05-May-2023 16:33:48 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php on line 2165
+[05-May-2023 16:33:48 UTC] PHP Stack trace:
+[05-May-2023 16:33:48 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:0
+[05-May-2023 16:33:48 UTC] PHP   2. require() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:158
+[05-May-2023 16:33:48 UTC] PHP   3. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/menu.php:420
+[05-May-2023 16:33:48 UTC] PHP   4. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/menu.php:155
+[05-May-2023 16:33:48 UTC] PHP   5. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:517
+[05-May-2023 16:33:48 UTC] PHP   6. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:332
+[05-May-2023 16:33:48 UTC] PHP   7. FS_Client_Migration_Abstract_v2::add_migration_debug('') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:308
+[05-May-2023 16:33:48 UTC] PHP   8. FS_Admin_Menu_Manager::add_subpage($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $function = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/client-migration/class-fs-client-migration-abstract.php:168
+[05-May-2023 16:33:48 UTC] PHP   9. add_submenu_page($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $callback = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render'], $position = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-admin-menu-manager.php:959
+[05-May-2023 16:33:48 UTC] PHP  10. plugin_basename($file = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/plugin.php:1405
+[05-May-2023 16:33:48 UTC] PHP  11. wp_normalize_path($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:768
+[05-May-2023 16:33:48 UTC] PHP  12. str_replace($search = '\\', $replace = '/', $subject = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:2165
+[05-May-2023 16:34:04 UTC] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php on line 7053
+[05-May-2023 16:34:04 UTC] PHP Stack trace:
+[05-May-2023 16:34:04 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:0
+[05-May-2023 16:34:04 UTC] PHP   2. require() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:158
+[05-May-2023 16:34:04 UTC] PHP   3. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/menu.php:420
+[05-May-2023 16:34:04 UTC] PHP   4. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/menu.php:155
+[05-May-2023 16:34:04 UTC] PHP   5. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:517
+[05-May-2023 16:34:04 UTC] PHP   6. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:332
+[05-May-2023 16:34:04 UTC] PHP   7. FS_Client_Migration_Abstract_v2::add_migration_debug('') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:308
+[05-May-2023 16:34:04 UTC] PHP   8. FS_Admin_Menu_Manager::add_subpage($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $function = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/client-migration/class-fs-client-migration-abstract.php:168
+[05-May-2023 16:34:04 UTC] PHP   9. add_submenu_page($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $callback = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render'], $position = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-admin-menu-manager.php:959
+[05-May-2023 16:34:04 UTC] PHP  10. plugin_basename($file = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/plugin.php:1405
+[05-May-2023 16:34:04 UTC] PHP  11. wp_normalize_path($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:768
+[05-May-2023 16:34:04 UTC] PHP  12. wp_is_stream($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:2158
+[05-May-2023 16:34:04 UTC] PHP  13. strpos($haystack = NULL, $needle = '://') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:7053
+[05-May-2023 16:34:04 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php on line 2165
+[05-May-2023 16:34:04 UTC] PHP Stack trace:
+[05-May-2023 16:34:04 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:0
+[05-May-2023 16:34:04 UTC] PHP   2. require() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:158
+[05-May-2023 16:34:04 UTC] PHP   3. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/menu.php:420
+[05-May-2023 16:34:04 UTC] PHP   4. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/menu.php:155
+[05-May-2023 16:34:04 UTC] PHP   5. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:517
+[05-May-2023 16:34:04 UTC] PHP   6. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:332
+[05-May-2023 16:34:04 UTC] PHP   7. FS_Client_Migration_Abstract_v2::add_migration_debug('') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:308
+[05-May-2023 16:34:04 UTC] PHP   8. FS_Admin_Menu_Manager::add_subpage($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $function = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/client-migration/class-fs-client-migration-abstract.php:168
+[05-May-2023 16:34:04 UTC] PHP   9. add_submenu_page($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $callback = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render'], $position = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-admin-menu-manager.php:959
+[05-May-2023 16:34:04 UTC] PHP  10. plugin_basename($file = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/plugin.php:1405
+[05-May-2023 16:34:04 UTC] PHP  11. wp_normalize_path($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:768
+[05-May-2023 16:34:04 UTC] PHP  12. str_replace($search = '\\', $replace = '/', $subject = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:2165
+[05-May-2023 16:34:14 UTC] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php on line 7053
+[05-May-2023 16:34:14 UTC] PHP Stack trace:
+[05-May-2023 16:34:14 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/edit.php:0
+[05-May-2023 16:34:14 UTC] PHP   2. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/edit.php:10
+[05-May-2023 16:34:14 UTC] PHP   3. require() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:158
+[05-May-2023 16:34:14 UTC] PHP   4. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/menu.php:420
+[05-May-2023 16:34:14 UTC] PHP   5. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/menu.php:155
+[05-May-2023 16:34:14 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:517
+[05-May-2023 16:34:14 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:332
+[05-May-2023 16:34:14 UTC] PHP   8. FS_Client_Migration_Abstract_v2::add_migration_debug('') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:308
+[05-May-2023 16:34:14 UTC] PHP   9. FS_Admin_Menu_Manager::add_subpage($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $function = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/client-migration/class-fs-client-migration-abstract.php:168
+[05-May-2023 16:34:14 UTC] PHP  10. add_submenu_page($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $callback = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render'], $position = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-admin-menu-manager.php:959
+[05-May-2023 16:34:14 UTC] PHP  11. plugin_basename($file = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/plugin.php:1405
+[05-May-2023 16:34:14 UTC] PHP  12. wp_normalize_path($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:768
+[05-May-2023 16:34:14 UTC] PHP  13. wp_is_stream($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:2158
+[05-May-2023 16:34:14 UTC] PHP  14. strpos($haystack = NULL, $needle = '://') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:7053
+[05-May-2023 16:34:14 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php on line 2165
+[05-May-2023 16:34:14 UTC] PHP Stack trace:
+[05-May-2023 16:34:14 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/edit.php:0
+[05-May-2023 16:34:14 UTC] PHP   2. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/edit.php:10
+[05-May-2023 16:34:14 UTC] PHP   3. require() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:158
+[05-May-2023 16:34:14 UTC] PHP   4. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/menu.php:420
+[05-May-2023 16:34:14 UTC] PHP   5. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/menu.php:155
+[05-May-2023 16:34:14 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:517
+[05-May-2023 16:34:14 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:332
+[05-May-2023 16:34:14 UTC] PHP   8. FS_Client_Migration_Abstract_v2::add_migration_debug('') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:308
+[05-May-2023 16:34:14 UTC] PHP   9. FS_Admin_Menu_Manager::add_subpage($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $function = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/client-migration/class-fs-client-migration-abstract.php:168
+[05-May-2023 16:34:14 UTC] PHP  10. add_submenu_page($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $callback = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render'], $position = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-admin-menu-manager.php:959
+[05-May-2023 16:34:14 UTC] PHP  11. plugin_basename($file = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/plugin.php:1405
+[05-May-2023 16:34:14 UTC] PHP  12. wp_normalize_path($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:768
+[05-May-2023 16:34:14 UTC] PHP  13. str_replace($search = '\\', $replace = '/', $subject = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:2165
+[05-May-2023 16:34:21 UTC] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php on line 7053
+[05-May-2023 16:34:21 UTC] PHP Stack trace:
+[05-May-2023 16:34:21 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/post.php:0
+[05-May-2023 16:34:21 UTC] PHP   2. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/post.php:12
+[05-May-2023 16:34:21 UTC] PHP   3. require() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:158
+[05-May-2023 16:34:21 UTC] PHP   4. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/menu.php:420
+[05-May-2023 16:34:21 UTC] PHP   5. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/menu.php:155
+[05-May-2023 16:34:21 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:517
+[05-May-2023 16:34:21 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:332
+[05-May-2023 16:34:21 UTC] PHP   8. FS_Client_Migration_Abstract_v2::add_migration_debug('') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:308
+[05-May-2023 16:34:21 UTC] PHP   9. FS_Admin_Menu_Manager::add_subpage($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $function = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/client-migration/class-fs-client-migration-abstract.php:168
+[05-May-2023 16:34:21 UTC] PHP  10. add_submenu_page($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $callback = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render'], $position = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-admin-menu-manager.php:959
+[05-May-2023 16:34:21 UTC] PHP  11. plugin_basename($file = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/plugin.php:1405
+[05-May-2023 16:34:21 UTC] PHP  12. wp_normalize_path($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:768
+[05-May-2023 16:34:21 UTC] PHP  13. wp_is_stream($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:2158
+[05-May-2023 16:34:21 UTC] PHP  14. strpos($haystack = NULL, $needle = '://') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:7053
+[05-May-2023 16:34:21 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php on line 2165
+[05-May-2023 16:34:21 UTC] PHP Stack trace:
+[05-May-2023 16:34:21 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/post.php:0
+[05-May-2023 16:34:21 UTC] PHP   2. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/post.php:12
+[05-May-2023 16:34:21 UTC] PHP   3. require() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:158
+[05-May-2023 16:34:21 UTC] PHP   4. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/menu.php:420
+[05-May-2023 16:34:21 UTC] PHP   5. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/menu.php:155
+[05-May-2023 16:34:21 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:517
+[05-May-2023 16:34:21 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:332
+[05-May-2023 16:34:21 UTC] PHP   8. FS_Client_Migration_Abstract_v2::add_migration_debug('') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:308
+[05-May-2023 16:34:21 UTC] PHP   9. FS_Admin_Menu_Manager::add_subpage($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $function = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/client-migration/class-fs-client-migration-abstract.php:168
+[05-May-2023 16:34:21 UTC] PHP  10. add_submenu_page($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $callback = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render'], $position = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-admin-menu-manager.php:959
+[05-May-2023 16:34:21 UTC] PHP  11. plugin_basename($file = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/plugin.php:1405
+[05-May-2023 16:34:21 UTC] PHP  12. wp_normalize_path($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:768
+[05-May-2023 16:34:21 UTC] PHP  13. str_replace($search = '\\', $replace = '/', $subject = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:2165
+[05-May-2023 16:34:44 UTC] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php on line 7053
+[05-May-2023 16:34:44 UTC] PHP Stack trace:
+[05-May-2023 16:34:44 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/edit.php:0
+[05-May-2023 16:34:44 UTC] PHP   2. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/edit.php:10
+[05-May-2023 16:34:44 UTC] PHP   3. require() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:158
+[05-May-2023 16:34:44 UTC] PHP   4. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/menu.php:420
+[05-May-2023 16:34:44 UTC] PHP   5. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/menu.php:155
+[05-May-2023 16:34:44 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:517
+[05-May-2023 16:34:44 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:332
+[05-May-2023 16:34:44 UTC] PHP   8. FS_Client_Migration_Abstract_v2::add_migration_debug('') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:308
+[05-May-2023 16:34:44 UTC] PHP   9. FS_Admin_Menu_Manager::add_subpage($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $function = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/client-migration/class-fs-client-migration-abstract.php:168
+[05-May-2023 16:34:44 UTC] PHP  10. add_submenu_page($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $callback = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render'], $position = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-admin-menu-manager.php:959
+[05-May-2023 16:34:44 UTC] PHP  11. plugin_basename($file = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/plugin.php:1405
+[05-May-2023 16:34:44 UTC] PHP  12. wp_normalize_path($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:768
+[05-May-2023 16:34:44 UTC] PHP  13. wp_is_stream($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:2158
+[05-May-2023 16:34:44 UTC] PHP  14. strpos($haystack = NULL, $needle = '://') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:7053
+[05-May-2023 16:34:44 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php on line 2165
+[05-May-2023 16:34:44 UTC] PHP Stack trace:
+[05-May-2023 16:34:44 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/edit.php:0
+[05-May-2023 16:34:44 UTC] PHP   2. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/edit.php:10
+[05-May-2023 16:34:44 UTC] PHP   3. require() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:158
+[05-May-2023 16:34:44 UTC] PHP   4. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/menu.php:420
+[05-May-2023 16:34:44 UTC] PHP   5. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/menu.php:155
+[05-May-2023 16:34:44 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:517
+[05-May-2023 16:34:44 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:332
+[05-May-2023 16:34:44 UTC] PHP   8. FS_Client_Migration_Abstract_v2::add_migration_debug('') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:308
+[05-May-2023 16:34:44 UTC] PHP   9. FS_Admin_Menu_Manager::add_subpage($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $function = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/client-migration/class-fs-client-migration-abstract.php:168
+[05-May-2023 16:34:44 UTC] PHP  10. add_submenu_page($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $callback = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render'], $position = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-admin-menu-manager.php:959
+[05-May-2023 16:34:44 UTC] PHP  11. plugin_basename($file = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/plugin.php:1405
+[05-May-2023 16:34:44 UTC] PHP  12. wp_normalize_path($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:768
+[05-May-2023 16:34:44 UTC] PHP  13. str_replace($search = '\\', $replace = '/', $subject = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:2165
+[05-May-2023 16:34:47 UTC] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php on line 7053
+[05-May-2023 16:34:47 UTC] PHP Stack trace:
+[05-May-2023 16:34:47 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/post.php:0
+[05-May-2023 16:34:47 UTC] PHP   2. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/post.php:12
+[05-May-2023 16:34:47 UTC] PHP   3. require() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:158
+[05-May-2023 16:34:47 UTC] PHP   4. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/menu.php:420
+[05-May-2023 16:34:47 UTC] PHP   5. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/menu.php:155
+[05-May-2023 16:34:47 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:517
+[05-May-2023 16:34:47 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:332
+[05-May-2023 16:34:47 UTC] PHP   8. FS_Client_Migration_Abstract_v2::add_migration_debug('') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:308
+[05-May-2023 16:34:47 UTC] PHP   9. FS_Admin_Menu_Manager::add_subpage($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $function = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/client-migration/class-fs-client-migration-abstract.php:168
+[05-May-2023 16:34:47 UTC] PHP  10. add_submenu_page($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $callback = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render'], $position = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-admin-menu-manager.php:959
+[05-May-2023 16:34:47 UTC] PHP  11. plugin_basename($file = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/plugin.php:1405
+[05-May-2023 16:34:47 UTC] PHP  12. wp_normalize_path($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:768
+[05-May-2023 16:34:47 UTC] PHP  13. wp_is_stream($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:2158
+[05-May-2023 16:34:47 UTC] PHP  14. strpos($haystack = NULL, $needle = '://') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:7053
+[05-May-2023 16:34:47 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php on line 2165
+[05-May-2023 16:34:47 UTC] PHP Stack trace:
+[05-May-2023 16:34:47 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/post.php:0
+[05-May-2023 16:34:47 UTC] PHP   2. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/post.php:12
+[05-May-2023 16:34:47 UTC] PHP   3. require() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:158
+[05-May-2023 16:34:47 UTC] PHP   4. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/menu.php:420
+[05-May-2023 16:34:47 UTC] PHP   5. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/menu.php:155
+[05-May-2023 16:34:47 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:517
+[05-May-2023 16:34:47 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:332
+[05-May-2023 16:34:47 UTC] PHP   8. FS_Client_Migration_Abstract_v2::add_migration_debug('') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:308
+[05-May-2023 16:34:47 UTC] PHP   9. FS_Admin_Menu_Manager::add_subpage($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $function = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/client-migration/class-fs-client-migration-abstract.php:168
+[05-May-2023 16:34:47 UTC] PHP  10. add_submenu_page($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $callback = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render'], $position = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-admin-menu-manager.php:959
+[05-May-2023 16:34:47 UTC] PHP  11. plugin_basename($file = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/plugin.php:1405
+[05-May-2023 16:34:47 UTC] PHP  12. wp_normalize_path($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:768
+[05-May-2023 16:34:47 UTC] PHP  13. str_replace($search = '\\', $replace = '/', $subject = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:2165
+[05-May-2023 16:39:32 UTC] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php on line 7053
+[05-May-2023 16:39:32 UTC] PHP Stack trace:
+[05-May-2023 16:39:32 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/edit.php:0
+[05-May-2023 16:39:32 UTC] PHP   2. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/edit.php:10
+[05-May-2023 16:39:32 UTC] PHP   3. require() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:158
+[05-May-2023 16:39:32 UTC] PHP   4. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/menu.php:420
+[05-May-2023 16:39:32 UTC] PHP   5. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/menu.php:155
+[05-May-2023 16:39:32 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:517
+[05-May-2023 16:39:32 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:332
+[05-May-2023 16:39:32 UTC] PHP   8. FS_Client_Migration_Abstract_v2::add_migration_debug('') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:308
+[05-May-2023 16:39:32 UTC] PHP   9. FS_Admin_Menu_Manager::add_subpage($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $function = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/client-migration/class-fs-client-migration-abstract.php:168
+[05-May-2023 16:39:32 UTC] PHP  10. add_submenu_page($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $callback = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render'], $position = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-admin-menu-manager.php:959
+[05-May-2023 16:39:32 UTC] PHP  11. plugin_basename($file = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/plugin.php:1405
+[05-May-2023 16:39:32 UTC] PHP  12. wp_normalize_path($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:768
+[05-May-2023 16:39:32 UTC] PHP  13. wp_is_stream($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:2158
+[05-May-2023 16:39:32 UTC] PHP  14. strpos($haystack = NULL, $needle = '://') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:7053
+[05-May-2023 16:39:32 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php on line 2165
+[05-May-2023 16:39:32 UTC] PHP Stack trace:
+[05-May-2023 16:39:32 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/edit.php:0
+[05-May-2023 16:39:32 UTC] PHP   2. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/edit.php:10
+[05-May-2023 16:39:32 UTC] PHP   3. require() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:158
+[05-May-2023 16:39:32 UTC] PHP   4. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/menu.php:420
+[05-May-2023 16:39:32 UTC] PHP   5. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/menu.php:155
+[05-May-2023 16:39:32 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:517
+[05-May-2023 16:39:32 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:332
+[05-May-2023 16:39:32 UTC] PHP   8. FS_Client_Migration_Abstract_v2::add_migration_debug('') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:308
+[05-May-2023 16:39:32 UTC] PHP   9. FS_Admin_Menu_Manager::add_subpage($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $function = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/client-migration/class-fs-client-migration-abstract.php:168
+[05-May-2023 16:39:32 UTC] PHP  10. add_submenu_page($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $callback = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render'], $position = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-admin-menu-manager.php:959
+[05-May-2023 16:39:32 UTC] PHP  11. plugin_basename($file = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/plugin.php:1405
+[05-May-2023 16:39:32 UTC] PHP  12. wp_normalize_path($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:768
+[05-May-2023 16:39:32 UTC] PHP  13. str_replace($search = '\\', $replace = '/', $subject = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:2165
+[05-May-2023 16:39:38 UTC] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php on line 7053
+[05-May-2023 16:39:38 UTC] PHP Stack trace:
+[05-May-2023 16:39:38 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/post.php:0
+[05-May-2023 16:39:38 UTC] PHP   2. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/post.php:12
+[05-May-2023 16:39:38 UTC] PHP   3. require() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:158
+[05-May-2023 16:39:38 UTC] PHP   4. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/menu.php:420
+[05-May-2023 16:39:38 UTC] PHP   5. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/menu.php:155
+[05-May-2023 16:39:38 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:517
+[05-May-2023 16:39:38 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:332
+[05-May-2023 16:39:38 UTC] PHP   8. FS_Client_Migration_Abstract_v2::add_migration_debug('') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:308
+[05-May-2023 16:39:38 UTC] PHP   9. FS_Admin_Menu_Manager::add_subpage($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $function = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/client-migration/class-fs-client-migration-abstract.php:168
+[05-May-2023 16:39:38 UTC] PHP  10. add_submenu_page($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $callback = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render'], $position = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-admin-menu-manager.php:959
+[05-May-2023 16:39:38 UTC] PHP  11. plugin_basename($file = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/plugin.php:1405
+[05-May-2023 16:39:38 UTC] PHP  12. wp_normalize_path($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:768
+[05-May-2023 16:39:38 UTC] PHP  13. wp_is_stream($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:2158
+[05-May-2023 16:39:38 UTC] PHP  14. strpos($haystack = NULL, $needle = '://') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:7053
+[05-May-2023 16:39:38 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php on line 2165
+[05-May-2023 16:39:38 UTC] PHP Stack trace:
+[05-May-2023 16:39:38 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/post.php:0
+[05-May-2023 16:39:38 UTC] PHP   2. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/post.php:12
+[05-May-2023 16:39:38 UTC] PHP   3. require() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:158
+[05-May-2023 16:39:38 UTC] PHP   4. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/menu.php:420
+[05-May-2023 16:39:38 UTC] PHP   5. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/menu.php:155
+[05-May-2023 16:39:38 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:517
+[05-May-2023 16:39:38 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:332
+[05-May-2023 16:39:38 UTC] PHP   8. FS_Client_Migration_Abstract_v2::add_migration_debug('') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:308
+[05-May-2023 16:39:38 UTC] PHP   9. FS_Admin_Menu_Manager::add_subpage($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $function = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/client-migration/class-fs-client-migration-abstract.php:168
+[05-May-2023 16:39:38 UTC] PHP  10. add_submenu_page($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $callback = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render'], $position = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-admin-menu-manager.php:959
+[05-May-2023 16:39:38 UTC] PHP  11. plugin_basename($file = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/plugin.php:1405
+[05-May-2023 16:39:38 UTC] PHP  12. wp_normalize_path($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:768
+[05-May-2023 16:39:38 UTC] PHP  13. str_replace($search = '\\', $replace = '/', $subject = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:2165
+[05-May-2023 16:42:29 UTC] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php on line 7053
+[05-May-2023 16:42:29 UTC] PHP Stack trace:
+[05-May-2023 16:42:29 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/post.php:0
+[05-May-2023 16:42:29 UTC] PHP   2. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/post.php:12
+[05-May-2023 16:42:29 UTC] PHP   3. require() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:158
+[05-May-2023 16:42:29 UTC] PHP   4. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/menu.php:420
+[05-May-2023 16:42:29 UTC] PHP   5. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/menu.php:155
+[05-May-2023 16:42:29 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:517
+[05-May-2023 16:42:29 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:332
+[05-May-2023 16:42:29 UTC] PHP   8. FS_Client_Migration_Abstract_v2::add_migration_debug('') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:308
+[05-May-2023 16:42:29 UTC] PHP   9. FS_Admin_Menu_Manager::add_subpage($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $function = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/client-migration/class-fs-client-migration-abstract.php:168
+[05-May-2023 16:42:29 UTC] PHP  10. add_submenu_page($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $callback = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render'], $position = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-admin-menu-manager.php:959
+[05-May-2023 16:42:29 UTC] PHP  11. plugin_basename($file = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/plugin.php:1405
+[05-May-2023 16:42:29 UTC] PHP  12. wp_normalize_path($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:768
+[05-May-2023 16:42:29 UTC] PHP  13. wp_is_stream($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:2158
+[05-May-2023 16:42:29 UTC] PHP  14. strpos($haystack = NULL, $needle = '://') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:7053
+[05-May-2023 16:42:29 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php on line 2165
+[05-May-2023 16:42:29 UTC] PHP Stack trace:
+[05-May-2023 16:42:29 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/post.php:0
+[05-May-2023 16:42:29 UTC] PHP   2. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/post.php:12
+[05-May-2023 16:42:29 UTC] PHP   3. require() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:158
+[05-May-2023 16:42:29 UTC] PHP   4. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/menu.php:420
+[05-May-2023 16:42:29 UTC] PHP   5. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/menu.php:155
+[05-May-2023 16:42:29 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:517
+[05-May-2023 16:42:29 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:332
+[05-May-2023 16:42:29 UTC] PHP   8. FS_Client_Migration_Abstract_v2::add_migration_debug('') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:308
+[05-May-2023 16:42:29 UTC] PHP   9. FS_Admin_Menu_Manager::add_subpage($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $function = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/client-migration/class-fs-client-migration-abstract.php:168
+[05-May-2023 16:42:29 UTC] PHP  10. add_submenu_page($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $callback = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render'], $position = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-admin-menu-manager.php:959
+[05-May-2023 16:42:29 UTC] PHP  11. plugin_basename($file = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/plugin.php:1405
+[05-May-2023 16:42:29 UTC] PHP  12. wp_normalize_path($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:768
+[05-May-2023 16:42:29 UTC] PHP  13. str_replace($search = '\\', $replace = '/', $subject = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:2165
+[05-May-2023 16:42:30 UTC] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php on line 7053
+[05-May-2023 16:42:30 UTC] PHP Stack trace:
+[05-May-2023 16:42:30 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/post.php:0
+[05-May-2023 16:42:30 UTC] PHP   2. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/post.php:12
+[05-May-2023 16:42:30 UTC] PHP   3. require() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:158
+[05-May-2023 16:42:30 UTC] PHP   4. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/menu.php:420
+[05-May-2023 16:42:30 UTC] PHP   5. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/menu.php:155
+[05-May-2023 16:42:30 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:517
+[05-May-2023 16:42:30 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:332
+[05-May-2023 16:42:30 UTC] PHP   8. FS_Client_Migration_Abstract_v2::add_migration_debug('') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:308
+[05-May-2023 16:42:30 UTC] PHP   9. FS_Admin_Menu_Manager::add_subpage($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $function = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/client-migration/class-fs-client-migration-abstract.php:168
+[05-May-2023 16:42:30 UTC] PHP  10. add_submenu_page($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $callback = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render'], $position = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-admin-menu-manager.php:959
+[05-May-2023 16:42:30 UTC] PHP  11. plugin_basename($file = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/plugin.php:1405
+[05-May-2023 16:42:30 UTC] PHP  12. wp_normalize_path($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:768
+[05-May-2023 16:42:30 UTC] PHP  13. wp_is_stream($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:2158
+[05-May-2023 16:42:30 UTC] PHP  14. strpos($haystack = NULL, $needle = '://') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:7053
+[05-May-2023 16:42:30 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php on line 2165
+[05-May-2023 16:42:30 UTC] PHP Stack trace:
+[05-May-2023 16:42:30 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/post.php:0
+[05-May-2023 16:42:30 UTC] PHP   2. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/post.php:12
+[05-May-2023 16:42:30 UTC] PHP   3. require() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/admin.php:158
+[05-May-2023 16:42:30 UTC] PHP   4. require_once() /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/menu.php:420
+[05-May-2023 16:42:30 UTC] PHP   5. do_action($hook_name = 'admin_menu', ...$arg = variadic('')) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/menu.php:155
+[05-May-2023 16:42:30 UTC] PHP   6. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:517
+[05-May-2023 16:42:30 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:332
+[05-May-2023 16:42:30 UTC] PHP   8. FS_Client_Migration_Abstract_v2::add_migration_debug('') /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/class-wp-hook.php:308
+[05-May-2023 16:42:30 UTC] PHP   9. FS_Admin_Menu_Manager::add_subpage($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $function = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render']) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/client-migration/class-fs-client-migration-abstract.php:168
+[05-May-2023 16:42:30 UTC] PHP  10. add_submenu_page($parent_slug = NULL, $page_title = 'Freemius Migration Debug', $menu_title = 'Freemius Migration Debug', $capability = 'manage_options', $menu_slug = 'freemius-migration', $callback = [0 => 'FS_Client_Migration_Abstract_v2', 1 => '_debug_page_render'], $position = *uninitialized*) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-content/plugins/ocean-extra/includes/freemius/includes/managers/class-fs-admin-menu-manager.php:959
+[05-May-2023 16:42:30 UTC] PHP  11. plugin_basename($file = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-admin/includes/plugin.php:1405
+[05-May-2023 16:42:30 UTC] PHP  12. wp_normalize_path($path = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/plugin.php:768
+[05-May-2023 16:42:30 UTC] PHP  13. str_replace($search = '\\', $replace = '/', $subject = NULL) /Users/audrey/Desktop/Local Sites/medit/app/public/wp-includes/functions.php:2165
