@@ -267,8 +267,15 @@ class HMWP_Models_Files
      */
     public function getOriginalPath( $new_url )
     {
-        $new_path = str_replace(home_url(), '', $new_url);
-        return HMWP_Classes_Tools::getRootPath() . ltrim($new_path, '/');
+	    //remove domain from path
+	    $new_path = str_replace(home_url(), '', $new_url);
+
+	    //remove queries from path
+	    if(strpos($new_path , '?') !== false){
+		    $new_path = substr($new_path, 0, strpos($new_path , '?'));
+	    }
+
+	    return HMWP_Classes_Tools::getRootPath() . ltrim($new_path, '/');
     }
 
     /**
@@ -281,7 +288,7 @@ class HMWP_Models_Files
     public function showFile( $url )
     {
 
-        //Initialize WordPress Filesystem
+	    //Initialize WordPress Filesystem
         $wp_filesystem = HMWP_Classes_ObjController::initFilesystem();
 
         //remove the redirect hook
@@ -299,7 +306,6 @@ class HMWP_Models_Files
         //Get the original URL and path based on rewrite rules
         $new_url = $this->getOriginalUrl($url);
         $new_path = $this->getOriginalPath($new_url);
-
         $ctype = false;
 
         if ($ext = $this->isFile($new_url) ) {
@@ -450,43 +456,43 @@ class HMWP_Models_Files
 
 	        $this->handleLogin($new_url);
 
-        } elseif (strpos($new_url, '/wp-activate.php') ) {
+        } elseif (stripos($new_url, '/' . HMWP_Classes_Tools::getDefault('hmwp_admin-ajax_url')) !== false ||
+                  stripos($new_url, '/' . HMWP_Classes_Tools::getDefault('hmwp_wp-json')) !== false) {
 
-	        ob_start();
-	        include ABSPATH . '/wp-activate.php';
-	        $content = ob_get_clean();
+	        $response = false;
 
-	        header("HTTP/1.1 200 OK");
-
-	        //Echo the html file content
-	        echo $content;
-	        exit();
-
-        } elseif (strpos($new_url, '/wp-signup.php') ) {
-
-	        ob_start();
-	        include ABSPATH . '/wp-signup.php';
-	        $content = ob_get_clean();
-
-	        header("HTTP/1.1 200 OK");
-
-	        //Echo the html file content
-	        echo $content;
-	        exit();
-
-        } elseif (strpos($new_url, '/' . HMWP_Classes_Tools::$default['hmwp_wp-json']) !== false &&
-                  isset($_SERVER['REQUEST_METHOD']) && $_SERVER['REQUEST_METHOD'] === 'POST' ) {
-	        $response = $this->postRequest($url);
-
-	        header("HTTP/1.1 200 OK");
-	        if (!empty($response['headers']) ) {
-		        foreach ( $response['headers'] as $header ) {
-			        header($header);
-		        }
+	        if(isset($_SERVER['REQUEST_METHOD']) && $_SERVER['REQUEST_METHOD'] === 'POST' ) {
+		        $response = $this->postRequest($new_url);
+	        }elseif(isset($_SERVER['REQUEST_METHOD']) && $_SERVER['REQUEST_METHOD'] === 'GET' ) {
+		        $response = $this->getRequest($new_url);
 	        }
 
+	        if($response){
+		        header("HTTP/1.1 200 OK");
+		        if (!empty($response['headers']) ) {
+			        foreach ( $response['headers'] as $header ) {
+				        header($header);
+			        }
+		        }
+
+		        //Echo the html file content
+		        echo $response['body'];
+		        exit();
+	        }
+
+	        exit();
+
+        } elseif (strpos($new_url, '/' . HMWP_Classes_Tools::getDefault('hmwp_activate_url')) !== false ||
+                  strpos($new_url, '/' . HMWP_Classes_Tools::getDefault('hmwp_wp-signup_url')) !== false ) {
+
+	        ob_start();
+	        include $new_path;
+	        $content = ob_get_clean();
+
+	        header("HTTP/1.1 200 OK");
+
 	        //Echo the html file content
-	        echo $response['body'];
+	        echo $content;
 	        exit();
 
         } elseif ( $url <> $new_url ) {

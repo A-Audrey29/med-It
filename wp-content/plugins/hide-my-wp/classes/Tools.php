@@ -296,6 +296,7 @@ class HMWP_Classes_Tools
             'hmwp_themes' => array(),
             'hmwp_upload_url' => 'uploads',
             'hmwp_admin-ajax_url' => 'admin-ajax.php',
+            'hmwp_wp-signup_url' => 'wp-signup.php',
             'hmwp_hideajax_paths' => 0,
             'hmwp_hideajax_admin' => 0,
             'hmwp_tags_url' => 'tag',
@@ -330,7 +331,7 @@ class HMWP_Classes_Tools
             'hmwp_security_header' => 0,
             'hmwp_hide_unsafe_headers' => 0,
             'hmwp_security_headers' => array(
-                "Strict-Transport-Security" => "max-age=63072000",
+                "Strict-Transport-Security" => "max-age=15768000;includeSubdomains",
                 "Content-Security-Policy" => "object-src 'none'",
                 "X-XSS-Protection" => "1; mode=block",
                 "X-Content-Type-Options" => "nosniff",

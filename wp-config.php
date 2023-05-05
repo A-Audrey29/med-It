@@ -1,14 +1,14 @@
 <?php
 
 /**
-* Database Config
-*
-* Inserted by Local
-*/
-define( 'DB_NAME', 'local' );
-define( 'DB_USER', 'root' );
-define( 'DB_PASSWORD', 'root' );
-define( 'DB_HOST', 'localhost' );
+ * Database Config
+ *
+ * Inserted by Local
+ */
+define('DB_NAME', 'local');
+define('DB_USER', 'root');
+define('DB_PASSWORD', 'root');
+define('DB_HOST', 'localhost');
 
 
 /**
@@ -46,18 +46,18 @@ define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
 
 /** Disable WordPress file editor */
-define( 'DISALLOW_FILE_EDIT', true );
+define('DISALLOW_FILE_EDIT', true);
 
-define( 'COOKIEHASH', md5('root' . 'secure cookies' .'root' ) );	// Cookies hardening
+define('COOKIEHASH', md5('root' . 'secure cookies' . 'root'));    // Cookies hardening
 // define( 'COOKIEHASH', md5($_SERVER['WORDPRESS_DB_PASSWORD'] . 'secure cookies' .$_SERVER['WORDPRESS_DB_PASSWORD'] ) );	// Cookies hardening
 
-define( 'WP_MEMORY_LIMIT', '256M' );
+define('WP_MEMORY_LIMIT', '256M');
 
 // Disable OP Cache mu-plugin feature
-define('HIDE_CACHE_CLEAR',false);
+define('HIDE_CACHE_CLEAR', false);
 
 // Disable SSO mu-plugin feature
-define('HIDE_SSO_LINK',false);
+define('HIDE_SSO_LINK', false);
 
 /**#@+
  * Authentication Unique Keys and Salts.
@@ -107,24 +107,24 @@ define('WPLANG', '');
 define('WP_DEBUG', true);
 define('WP_DEBUG_DISPLAY', true);
 define('WP_DEBUG_LOG', true);
-$sapi_type = php_sapi_name();
-if ( $sapi_type == 'cli' ) {
-    define( 'WP_DEBUG', false );
-    error_reporting(0);
-    @ini_set('display_errors', 0);
-}
+// $sapi_type = php_sapi_name();
+// if ($sapi_type == 'cli') {
+//     define('WP_DEBUG', false);
+//     error_reporting(0);
+//     @ini_set('display_errors', 0);
+// }
 // @ini_set('log_errors', 'On');
 
-define( 'WPMU_PLUGIN_DIR', '/mu-plugin' );
-define( 'DOCKET_CACHE_CONTENT_PATH', '/tmp/docket_cache' );
+define('WPMU_PLUGIN_DIR', '/mu-plugin');
+define('DOCKET_CACHE_CONTENT_PATH', '/tmp/docket_cache');
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
-if ( !defined('ABSPATH') )
-	define('ABSPATH', dirname(__FILE__) . '/');
+if (!defined('ABSPATH'))
+    define('ABSPATH', dirname(__FILE__) . '/');
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
 
 /** change permisssions for plugin installation */
-define("FS_METHOD","direct");
+define("FS_METHOD", "direct");

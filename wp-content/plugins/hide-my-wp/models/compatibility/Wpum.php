@@ -2,8 +2,8 @@
 /**
  * Compatibility Class
  *
- * @file The UltimateMember Model file
- * @package HMWP/Compatibility/UltimateMember
+ * @file The WordPress User Manager Model file
+ * @package HMWP/Compatibility/WPum
  * @since 6.0.0
  */
 

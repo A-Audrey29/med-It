@@ -48,7 +48,6 @@ class HMWP_Controllers_Rewrite extends HMWP_Classes_FrontController
 	    if(HMWP_Classes_Tools::getOption( 'prevent_slow_loading' ) && count((array)HMWP_Classes_Tools::getOption( 'file_mappings' )) > 0){
 		    add_filter('site_url', array($this->model, 'site_url'), PHP_INT_MAX, 2);
 			add_filter('hmwp_process_paths', '__return_false');
-		    return;
 	    }
 
 	    //Init the main hooks

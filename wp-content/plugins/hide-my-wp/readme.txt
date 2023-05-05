@@ -4,7 +4,7 @@ Tags: security,firewall,hide,antivirus,wp-login,wp-admin,hide wordpress,hide wp,
 Requires at least: 4.3
 Tested up to: 6.2
 Requires PHP: 5.6
-Stable tag: 5.0.19
+Stable tag: 5.0.20
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -274,7 +274,13 @@ Enjoy!
 9. Customize the wp-admin path while logged in as an administrator
 
 == Changelog ==
-= 5.0.19 (24 Apr 2023) =
+= 5.0.20 (03 May 2023) =
+* Update - File processing when the rules are not set correctly
+* Update - Security headers default values
+* Fixed - Compatibilities with the last versions of other plugins
+* Fixed - Reduce resource usage on 404 pages
+
+= 5.0.19 (23 Apr 2023) =
 * Update - Brute Force protection on lost password form
 * Update - Brute Force protection on Woocommerce (login, signup, lost passowrd)
 * Update - Compatibility with Memberpress plugin
