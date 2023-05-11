@@ -76,41 +76,35 @@
 						<p class="popup-informations">Vous souhaitez plus d'informations concernant cet événement ?</p>
 						<?php
 						// On insère le formulaire de demandes de renseignements
-						// do_shortcode('[contact-form-7 id="910" title="Formulaire salon New York"]');
-						$shortcode_output = do_shortcode('[contact-form-7 id="910" title="Formulaire salon New York"]');
-						echo $shortcode_output
+						echo do_shortcode('[contact-form-7 id="910" title="Formulaire salon New York"]');
 						?>
 					</div>
 				</div>
 
 				<!-- Code pour fermer la popup -->
-				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 				<script>
-					// $('.popup-close').on('click', function() {
-					// 	$(this).parent().fadeOut();
-					// });
-
 					$('.popup-close').on('click', function() {
-						$(this).parent().closest('.popup-overlay').hide();
+						$(this).parent().closest('.popup-overlay').fadeOut();
 					});
 				</script>
 
 				<!-- Ajout d'un bouton contact au menu -->
 
 				<?php
-				//add_shortcode('contact_shortcode', 'declare_contact_shortcode');
-				//function declare_contact_shortcode(){
-				//	return '<a href="/contact" class="contact-btn">Nous contactereee</a>';
-				//}
+				add_shortcode('contact_shortcode', 'declare_contact_shortcode');
+				function declare_contact_shortcode()
+				{
+					return '<a href="/contact" class="contact-btn">Nous contacter</a>';
+				}
 				/**
 				 * Shortcode pour ajouter un bouton
 				 */
-				// function contact_btn() {
+				// function contact_btn()
+				// {
 				// 	// On retourne le code
 				// 	$string .= '<a href="/contact" class="contact-btn">Nous contacter</a>';
 
 				// 	return $string;
-
 				// }
 				// // On publie le shortcode
 				// add_shortcode('contact', 'contact_btn');
